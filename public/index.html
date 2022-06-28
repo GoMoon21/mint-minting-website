@@ -1,43 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8">
+  <title>EveryApe Matters</title>
+  <meta name="description"
+    content="EveryApe matters. Apes are innocent. No place for racism in Web3. Let's join us and #BURNBAYC #BURNMAYC together">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="icon" href="/images/logo.png">
+  <meta property="og:image" content="https://pbs.twimg.com/profile_images/1539933087869829120/jKM_h9jU_400x400.jpg">
+  <style type="text/css">
+    /* // .main { 
+    //   background-image: url(https://crmbadao-huy2huy2-702.s3-ap-southeast-1.amazonaws.com/1656070411316-backgr_azuki_fake.png);
+    // } */
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    @font-face {
+      font-family: 'Grandstander';
+      src: url(https://nftcdn.s3.amazonaws.com/font/02_APompadourTextSample.ttf);
+      font-style: normal;
+      font-display: swap;
+    }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    @font-face {
+      font-family: 'Grandstander';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://nftcdn.s3.amazonaws.com/font/03_APompadourBoldSample.ttf) format('woff2');
+    }
+
+    @font-face {
+      font-family: 'Grandstander';
+      font-style: normal;
+      font-weight: 900;
+      font-display: swap;
+      src: url(https://nftcdn.s3.amazonaws.com/font/03_APompadourBoldSample.ttf) format('woff2');
+    }
+
+    html,
+    body {
+      font-family: Grandstander, sans-serif;
+      font-size: 26px;
+      line-height: 1;
+    }
+
+    .txt {
+      text-shadow: 0.625vw 0.4166666666666667vw 0px #000000;
+      letter-spacing: -0.3645833333333333vw;
+      -webkit-text-stroke-width: 0.3125vw;
+      -webkit-text-stroke-color: #000000;
+    }
+
+    .btn {
+      filter: drop-shadow(6px 6px 0 #000000);
+    }
+
+    .btn:hover {
+      filter: drop-shadow(12px 12px 0px #000000);
+    }
+
+    .main.bg-primary,
+    .main .bg-primary,
+    .main .bg-second:hover {
+      background-color: #bc3748;
+    }
+
+    .main .bg-primary:hover {
+      background-color: #bc3748;
+    }
+
+    .main .outline-primarytext {
+      outline-color: #000000;
+    }
+
+    .main .text-primarytext {
+      color: #000000;
+    }
+
+    .main .bg-second {
+      background-color: #bc3748;
+    }
+  </style>
+  <meta name="next-head-count" content="7">    
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
 </html>
